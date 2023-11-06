@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - AnimTile
+  - HitBox
+  - Water
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BG
+    uniqueID: 1654364437
+    locked: 0
+  - name: Ground
+    uniqueID: 1749629115
+    locked: 0
+  - name: Water & Decoration
+    uniqueID: 3008644293
+    locked: 0
+  - name: Player
+    uniqueID: 4196454923
+    locked: 0
+  - name: FG
+    uniqueID: 2251457007
+    locked: 0
+  - name: UI
+    uniqueID: 730549813
+    locked: 0
