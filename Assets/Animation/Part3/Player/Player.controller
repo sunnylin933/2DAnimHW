@@ -61,6 +61,9 @@ AnimatorStateMachine:
   - serializedVersion: 1
     m_State: {fileID: -6207960280408064871}
     m_Position: {x: 230, y: -30, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 2696622247857511844}
+    m_Position: {x: 265, y: 35, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: 8805730482662164875}
@@ -78,7 +81,7 @@ AnimatorStateMachine:
   m_EntryPosition: {x: 440, y: -180, z: 0}
   m_ExitPosition: {x: 900, y: -20, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-  m_DefaultState: {fileID: -2378947462531492086}
+  m_DefaultState: {fileID: 2256008401248664378}
 --- !u!1102 &-6207960280408064871
 AnimatorState:
   serializedVersion: 6
@@ -142,7 +145,7 @@ AnimatorStateTransition:
   - m_ConditionMode: 6
     m_ConditionEvent: facingParam
     m_EventTreshold: 2
-  - m_ConditionMode: 3
+  - m_ConditionMode: 4
     m_ConditionEvent: ySpdParam
     m_EventTreshold: -0.2
   m_DstStateMachine: {fileID: 0}
@@ -207,7 +210,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 203e2484bf5fc45c0a663933cce531da, type: 2}
+  m_Motion: {fileID: 7400000, guid: 9808febc8052edd4ea8a844576c8c889, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -292,7 +295,7 @@ AnimatorStateTransition:
   - m_ConditionMode: 6
     m_ConditionEvent: facingParam
     m_EventTreshold: 2
-  - m_ConditionMode: 4
+  - m_ConditionMode: 3
     m_ConditionEvent: ySpdParam
     m_EventTreshold: -0.2
   m_DstStateMachine: {fileID: 0}
@@ -355,7 +358,33 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 312106af52c334e3b947f84b9b0fafcb, type: 2}
+  m_Motion: {fileID: 7400000, guid: 63be048a259112e4ca981f6020588329, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &2696622247857511844
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PlayerFrontIdle
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 9808febc8052edd4ea8a844576c8c889, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
