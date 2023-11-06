@@ -223,12 +223,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 79560334}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6a160d838ff8b4b4693ac20007e008c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_AssetsPPU: 32
+  m_AssetsPPU: 30
   m_RefResolutionX: 640
   m_RefResolutionY: 360
   m_UpscaleRT: 0
@@ -7492,6 +7492,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7114890770200607914, guid: 3c9a91e9b55fa4146b37f4b4c3134374,
+        type: 3}
+      propertyPath: walkSpeed
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7114890770200607915, guid: 3c9a91e9b55fa4146b37f4b4c3134374,
         type: 3}
       propertyPath: m_RootOrder
@@ -7549,9 +7554,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7114890770200607924, guid: 3c9a91e9b55fa4146b37f4b4c3134374,
         type: 3}
+      propertyPath: m_Size.x
+      value: 1.8333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 7114890770200607924, guid: 3c9a91e9b55fa4146b37f4b4c3134374,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.8333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 7114890770200607924, guid: 3c9a91e9b55fa4146b37f4b4c3134374,
+        type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -1225963493, guid: ff59a9e112284d449a5ae363111e7938,
+      objectReference: {fileID: -1817915777, guid: ff59a9e112284d449a5ae363111e7938,
         type: 3}
     - target: {fileID: 7114890770200607925, guid: 3c9a91e9b55fa4146b37f4b4c3134374,
         type: 3}

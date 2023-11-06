@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9d71d1f804bf7294ea6d5c0aaf68e82b
+guid: d14e38cc7f13eb44a9c6cf5210359840
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,169 +110,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dungeonMonster_backIdle-Sheet_0
+      name: dungeonMonster_backIdle-Sheet-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 55
         height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 147e1c627cae91f49a6db10ed4eb1c3d
-      internalID: 144711394
+      spriteID: c1a547e84bce295469b25b1e89b6c1f9
+      internalID: -2076704498
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dungeonMonster_backIdle-Sheet_1
+      name: dungeonMonster_backIdle-Sheet-Sheet_1
       rect:
         serializedVersion: 2
         x: 55
         y: 0
         width: 55
         height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2c37dc0c88e747428232d4d2c99d9f0
-      internalID: 540990216
+      spriteID: 5f40edd201d904446b97226596c2ea45
+      internalID: -546960266
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dungeonMonster_backIdle-Sheet_2
+      name: dungeonMonster_backIdle-Sheet-Sheet_2
       rect:
         serializedVersion: 2
         x: 110
         y: 0
         width: 55
         height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68977a246f1a1ae4198cae839676ac81
-      internalID: 478999388
+      spriteID: 02cf6eca4ad365944bcf18efc5727a07
+      internalID: -1993105444
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dungeonMonster_backIdle-Sheet_3
+      name: dungeonMonster_backIdle-Sheet-Sheet_3
       rect:
         serializedVersion: 2
         x: 165
         y: 0
         width: 55
         height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0dfa040186861cc488e2db6ec4bf9a8d
-      internalID: -1095579492
+      spriteID: 46aa19396f0b9e34680235722df8ce09
+      internalID: -2097050082
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dungeonMonster_backIdle-Sheet_4
+      name: dungeonMonster_backIdle-Sheet-Sheet_4
       rect:
         serializedVersion: 2
         x: 220
         y: 0
         width: 55
         height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: edbadb037a664634d8b18896e2d78dea
-      internalID: 635749326
+      spriteID: 893e55d6ac2b4e24191abf9e1ef48f50
+      internalID: -67541506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dungeonMonster_backIdle-Sheet_5
+      name: dungeonMonster_backIdle-Sheet-Sheet_5
       rect:
         serializedVersion: 2
         x: 275
         y: 0
         width: 55
         height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d81a341e6d638ab428397a399478f773
-      internalID: 1435950708
+      spriteID: 09e0d41e895dba941bf473bda01ea8b6
+      internalID: -1897483441
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dungeonMonster_backIdle-Sheet_6
+      name: dungeonMonster_backIdle-Sheet-Sheet_6
       rect:
         serializedVersion: 2
         x: 330
         y: 0
         width: 55
         height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8f493b3b2302044b891902efdedeae3
-      internalID: 302474882
+      spriteID: 8980e56992f398d47b82e18cbe82f3b1
+      internalID: 901226633
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dungeonMonster_backIdle-Sheet_7
+      name: dungeonMonster_backIdle-Sheet-Sheet_7
       rect:
         serializedVersion: 2
         x: 385
         y: 0
         width: 55
         height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58710752881d66245b655783de2b1199
-      internalID: -359995411
+      spriteID: e17390adabdfcbd4c9e2ee64837cf196
+      internalID: 610030952
       vertices: []
       indices: 
       edges: []
@@ -288,14 +288,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      dungeonMonster_backIdle-Sheet_0: 144711394
-      dungeonMonster_backIdle-Sheet_1: 540990216
-      dungeonMonster_backIdle-Sheet_2: 478999388
-      dungeonMonster_backIdle-Sheet_3: -1095579492
-      dungeonMonster_backIdle-Sheet_4: 635749326
-      dungeonMonster_backIdle-Sheet_5: 1435950708
-      dungeonMonster_backIdle-Sheet_6: 302474882
-      dungeonMonster_backIdle-Sheet_7: -359995411
+      dungeonMonster_backIdle-Sheet-Sheet_0: -2076704498
+      dungeonMonster_backIdle-Sheet-Sheet_1: -546960266
+      dungeonMonster_backIdle-Sheet-Sheet_2: -1993105444
+      dungeonMonster_backIdle-Sheet-Sheet_3: -2097050082
+      dungeonMonster_backIdle-Sheet-Sheet_4: -67541506
+      dungeonMonster_backIdle-Sheet-Sheet_5: -1897483441
+      dungeonMonster_backIdle-Sheet-Sheet_6: 901226633
+      dungeonMonster_backIdle-Sheet-Sheet_7: 610030952
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
