@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     public float decel;
     public bool isMoving = false;
     public ParticleSystem footsteps;
+    public ParticleSystem rocks;
     public CameraShake camshake;
     private Vector2 currentSpeed;
 
@@ -110,5 +111,7 @@ public class PlayerMovement : MonoBehaviour
         print("Emit");
         footsteps.Stop();
         footsteps.Play();
+        rocks.Stop();
+        rocks.Play();
     }
 }
