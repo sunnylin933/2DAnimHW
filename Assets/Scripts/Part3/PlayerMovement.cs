@@ -8,6 +8,9 @@ public class PlayerMovement : MonoBehaviour
     public float walkSpeed;
     public float accel;
     public float decel;
+    public bool isMoving = false;
+    public ParticleSystem footsteps;
+    public CameraShake camshake;
     private Vector2 currentSpeed;
 
     //This is the direction the player is facing.
@@ -37,7 +40,20 @@ public class PlayerMovement : MonoBehaviour
         anim.SetFloat("xSpdParam", currentSpeed.x);
         anim.SetFloat("ySpdParam", currentSpeed.y);
     }
-    
+
+    private void Update()
+    {
+        if(currentSpeed.x > 0 && currentSpeed.y > 0)
+        {
+            isMoving = true;
+        }
+        else
+        {
+            isMoving = false;
+        }
+
+    }
+
 
     void CheckMoveCtrls()
     {
@@ -88,4 +104,11 @@ public class PlayerMovement : MonoBehaviour
         }
     }
     
+    public void BurstParticles()
+    {
+        camshake.ShakeCamera();
+        print("Emit");
+        footsteps.Stop();
+        footsteps.Play();
+    }
 }
