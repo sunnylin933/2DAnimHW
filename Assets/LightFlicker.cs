@@ -8,7 +8,7 @@ public class LightFlicker : MonoBehaviour
     Light2D lt;
     float goalIntensity = 1f;
     float currentTime = 0f;
-    float timeMax = 0.25f;
+    float timeMax = 0.3f;
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +25,7 @@ public class LightFlicker : MonoBehaviour
             goalIntensity = Random.Range(0.75f, 1f);
             currentTime = 0f;
         }
-        lt.intensity = Mathf.Lerp(lt.intensity, goalIntensity, 0.01f);
+        lt.intensity = Mathf.Lerp(lt.intensity, goalIntensity, 0.1f);
+        lt.pointLightOuterRadius = Mathf.Lerp(lt.pointLightOuterRadius, goalIntensity+0.1f, 0.03f);
     }
 }

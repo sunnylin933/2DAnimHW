@@ -275,7 +275,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   camTransform: {fileID: 0}
   shakeDuration: 0.5
-  shakeAmount: 0.03
+  shakeAmount: 0.04
   decreaseFactor: 2
   shaketrue: 0
 --- !u!114 &80906385 stripped
